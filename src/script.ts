@@ -10,3 +10,12 @@ const app = document.getElementById("app");
 const p = document.createElement('p');
 p.textContent = "hello, world!";
 app?.appendChild(p);
+
+const list = document.getElementById("todo");
+const l = document.createElement('li'); //notice how there is no list element in html? 
+//hence we can create and put it from typescript as well
+l.textContent ='does this work?';
+list?.appendChild(l);
+const S = document.createElement('li');
+S.textContent ='does this work again?';
+list?.appendChild(S);

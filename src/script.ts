@@ -6,3 +6,7 @@
 // console.log(area);
 // //yolo = 23 at cost of not being able to use it outside
 // console.log(numbers);
+const app = document.getElementById("app");
+const p = document.createElement('p');
+p.textContent = "hello, world!";
+app?.appendChild(p);
